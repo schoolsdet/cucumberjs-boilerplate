@@ -2,7 +2,7 @@
 Feature: Prestashop test
     I want to test if the prestashop-dev.sdet.school failed login screen displays an error
 
-    Scenario: login with fake credentials
+    Scenario: login with incorrect credentials
         Given I open the url "https://prestashop-dev.sdet.school/"
         And I pause for 2000ms
         And I click on the button "#_desktop_user_info>div"

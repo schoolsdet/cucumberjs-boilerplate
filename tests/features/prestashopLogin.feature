@@ -2,7 +2,7 @@
 Feature: Prestashop test
     I want to test Prestashop on correct login will display user name
 
-    Scenario: login with fake credentials
+    Scenario: login with valid credentials
         Given I open the url "https://prestashop-dev.sdet.school/"
         And I pause for 2000ms
         And I click on the button "#_desktop_user_info>div"
