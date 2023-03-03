@@ -5,7 +5,7 @@ Feature: Prestashop test
     Scenario: login with valid credentials
         Given I open the url "https://prestashop-dev.sdet.school/"
         And I pause for 2000ms
-        And I click on the button "#_desktop_user_info>div"
+       When I click on the button "#_desktop_user_info>div"
         And I pause for 2000ms
         And I set "test@email.com" to the inputfield "#field-email"
         And I pause for 2000ms

@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/gravityvi/cucumber-nightwatch-boilerplate#readme",
   "dependencies": {
-    "@cucumber/cucumber": "8.10.0",
-    "chromedriver": "109.0.0",
+    "@cucumber/cucumber": "9.0.0",
+    "chromedriver": "110.0.0",
     "geckodriver": "3.2.0"
   },
   "devDependencies": {
-    "eslint": "8.32.0",
-    "nightwatch": "2.6.10"
+    "eslint": "8.35.0",
+    "nightwatch": "2.6.16"
   }
 }
